@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  margin: 10px 60px;
 }
 
 h1 {
@@ -8,7 +9,7 @@ h1 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
   color: darkblue;
   margin: 12px 5px 0 5px;
