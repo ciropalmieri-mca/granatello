@@ -88,6 +88,17 @@ footer a {
   color: lightblue;
 }
 
+.footer-nav {
+  text-align: center;
+  padding: 12px 0;
+}
+
+.footer-nav a {
+  margin: 0 15px;
+  color: lightblue;
+  font-weight: bold;
+}
+
 @media screen and (max-width: 768px) {
   main {
     margin: 0;
