@@ -90,6 +90,7 @@ footer a {
 
 @media screen and (max-width: 768px) {
   main {
+    margin: 0;
     padding: 10px 20px 90px 20px;
   }
 
