@@ -9,8 +9,8 @@ body {
 }
 
 main {
-  margin: 10px 150px;
-  padding-bottom: 90px; /* spazio per il footer */
+  margin: 10px 90px;
+  padding-bottom: 80px; /* spazio per il footer */
 }
 
 header {
@@ -86,4 +86,33 @@ footer {
 
 footer a {
   color: lightblue;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    padding: 10px 20px 90px 20px;
+  }
+
+  .main-image-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .main-image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  td {
+    padding: 8px 10px;
+  }
+
+  header, footer {
+    text-align: center;
+    padding: 12px;
+  }
 }
